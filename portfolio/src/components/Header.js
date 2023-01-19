@@ -1,18 +1,35 @@
-import React from "react";
-import About from "./About";
-import Contact from "./Contact";
-import Portfolio from "./Portfolio"
-import Resume from "./Resume";
-import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react';
+import NavTabs from './Nav';
+import About from './About';
+import Contact from './Contact';
+import Portfolio from './Portfolio';
+import Resume from './Resume';
 
-function Navigation(props) {
-    return (
-        <div>
-            <NavLink path='/About' component={About}>About</NavLink>
-            <NavLink path="/Project" component={Portfolio}>Projects</NavLink>
-            <NavLink path="/Contact" component={Contact}>Contact</NavLink>
-            <NavLink path="/Resume" component={Resume}>Resume</NavLink>
-        </div>
-    )
+export default function PortfolioContainer() {
+  const [currentPage, setCurrentPage] = useState('About');
+
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderPage = () => {
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    return <Resume />;
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+    </div>
+  );
 }
-export default Navigation
