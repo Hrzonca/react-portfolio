@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  /* https://coolors.co/071013-23b5d3-75abbc-a2aebb-dfe0e2 */
+  --rich-black:#071013
+  --pacific-cyan:#23b5D3
+  --moonstone:#75ABBC
+  --cadet-gray:#A2AEBB
+  --platinum:#DFE0E2
+
+}
+* {
+  background: var(--moonstone);
+}
+
+.navigation {
+  display: flex;
+  align-items: flex-end;
+  font-size: 22px;
+  text-decoration: none;
+  
+}
+
+.title {
+  margin: auto 20px; 
+  padding: 10px;
+  color: var(--pacific-cyan);
+
+} 
+
+.navigation a {
+  padding: 20px;
+  align-items: flex-end;
+  color: var(--cadet-gray);
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px var(--rich-black);
+}
+
