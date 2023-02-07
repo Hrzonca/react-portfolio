@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Hrzonca/react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Hrzonca/react-portfolio/static/js/main.480565ac.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Hrzonca/react-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/Hrzonca/react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/Hrzonca/react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.480565ac.js.map": "/Hrzonca/react-portfolio/static/js/main.480565ac.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Hrzonca/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/react-portfolio/portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/react-portfolio/portfolio/static/js/main.eebf3429.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/react-portfolio/portfolio/index.html",
+    "main.073c9b0a.css.map": "/react-portfolio/portfolio/static/css/main.073c9b0a.css.map",
+    "main.eebf3429.js.map": "/react-portfolio/portfolio/static/js/main.eebf3429.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-portfolio/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.480565ac.js"
+    "static/js/main.eebf3429.js"
   ]
 }
