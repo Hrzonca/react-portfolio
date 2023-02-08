@@ -14,7 +14,7 @@
 # Description
 This application is a front end portfiolo for my work created with React. This allows me to share my work and information with future employers. 
 
-![live link](https://hrzonca.github.io/react-portfolio/)
+Live: (https://hrzonca.github.io/react-portfolio/)
 
 # Installation 
 Clone repository to local 
