@@ -67,6 +67,12 @@ code {
 
 }
 
+.about img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Contact styling */
 .contact h1{
   display: flex;
