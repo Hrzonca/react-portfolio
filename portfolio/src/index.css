@@ -14,15 +14,16 @@ code {
 
 :root {
   /* https://coolors.co/071013-23b5d3-75abbc-a2aebb-dfe0e2 */
-  --rich-black:#071013
-  --pacific-cyan:#23b5D3
-  --moonstone:#75ABBC
-  --cadet-gray:#A2AEBB
-  --platinum:#DFE0E2
+  --rich-black:#023047;
+  --pacific-cyan:#219EBC;
+  --moonstone:#8ECAE6;
+  --yellow:#FFB703;
+  --orange:#FB8500;
+  --grey:#dad7cd;
 
 }
 * {
-  background: var(--moonstone);
+  background: var(--gray);
 }
 
 .navigation {
@@ -30,22 +31,59 @@ code {
   align-items: flex-end;
   font-size: 22px;
   text-decoration: none;
-  
+  background-color: var(--rich-black);
 }
 
 .title {
   margin: auto 20px; 
   padding: 10px;
-  color: var(--pacific-cyan);
+  color: var(--yellow);
 
 } 
 
 .navigation a {
   padding: 20px;
-  align-items: flex-end;
-  color: var(--cadet-gray);
+  color: var(--orange);
   font-weight: bold;
   text-decoration: none;
   text-shadow: 1px 1px 2px var(--rich-black);
 }
 
+.about {
+  color: var(--pacific-cyan);
+}
+
+.about h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about p {
+  color: var(--rich-black);
+  margin: 20px;
+
+}
+
+.contact h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  background-color: var(--grey);
+  border-radius: 5px;
+  height: 400px;
+  margin: 2rem;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 2px 2px var(--rich-black), 0 6px 12px var(--rich-black);
+}

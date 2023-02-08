@@ -2,10 +2,10 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div>
+        <div className='contact'>
             <h1>Contact Me!</h1>
-            <li>Email: </li>
-            <li>Phone Number:</li>
+            <p>Email: </p>
+            <p>Phone Number: (253)-335-8582</p>
         </div>
     )
 }

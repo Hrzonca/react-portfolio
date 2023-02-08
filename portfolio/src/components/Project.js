@@ -7,10 +7,11 @@ function ProjectCards(props) {
           <img alt={props.name} src={props.image}/>
         </div>
         <div className="content">
-              <p className="project-title" id="card-title">{props.name}</p>
+              <p className="props-title" id="card-title">{props.name}</p>
+              
               <p>
-              <a href={props.github}><img src="" alt="Repository" id="project-icon"/></a> 
-              <a href={props.deploy}><img src="" alt="Deployed Site" id="project-icon"/></a> 
+              <a href={props.github}><img src={props.github} alt={props.name}/></a> 
+              <a href={props.deploy}><img src={props.deploy} alt='deployed app'></img></a> 
               </p>
         </div>
       </div>
