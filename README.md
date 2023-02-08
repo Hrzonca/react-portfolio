@@ -1,6 +1,9 @@
 # react-portf
 
-![local server start view](./images/Screen%20Shot%202023-01-19%20at%208.39.18%20AM.png)
+![main page](./images/main-page.png)
+![contact page](./images/Contact-page.png)
+![portfolio page](./images/portfolio-page.png)
+![resume page](./images/resume-page.png)
 
 # Table of Contents
 ## Descption
