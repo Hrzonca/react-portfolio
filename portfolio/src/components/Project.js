@@ -11,7 +11,7 @@ function ProjectCards(props) {
               
               <p>
               <a href={props.github}><img src={props.github} alt={props.name}/></a> 
-              <a href={props.deploy}><img src={props.deploy} alt='deployed app'></img></a> 
+              <a href={props.deploy}><img src={props.deploy} alt={props.name}></img></a> 
               </p>
         </div>
       </div>

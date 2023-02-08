@@ -1,5 +1,5 @@
 import React from "react";
-import project from "../project.json";
+import projects from "../project.json";
 import ProjectCards from "./Project";
 
 function Wrapper(props) {
@@ -14,7 +14,7 @@ function Portfolio() {
             </div>
         
             <Wrapper id="card-data">
-            {project.map((project) => (
+            {projects.map((project) => (
               <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy}/>
             ))}
           </Wrapper>
