@@ -26,6 +26,7 @@ code {
   background: var(--gray);
 }
 
+/* Navigation styling */
 .navigation {
   display: flex;
   align-items: flex-end;
@@ -49,6 +50,7 @@ code {
   text-shadow: 1px 1px 2px var(--rich-black);
 }
 
+/* About styling */
 .about {
   color: var(--pacific-cyan);
 }
@@ -65,6 +67,7 @@ code {
 
 }
 
+/* Contact styling */
 .contact h1{
   display: flex;
   align-items: center;
@@ -78,11 +81,38 @@ code {
   justify-content: center;
 }
 
+/* Resume styling */
+.resume h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.education {
+  margin: 20px;
+}
+
+.education li {
+  color: var(--pacific-cyan);
+  font: bold;
+}
+
+.education p {
+  text-indent: 40px;
+}
+
 .wrapper {
   background-color: var(--grey);
   border-radius: 5px;
   height: 400px;
-  margin: 2rem;
+  margin: 20px;
   position: relative;
   width: 400px;
   box-shadow: 0 2px 2px var(--rich-black), 0 6px 12px var(--rich-black);
