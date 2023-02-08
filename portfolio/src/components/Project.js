@@ -1,17 +1,17 @@
 import React from "react";
 
-function ProjectCards(props) {
+function ProjectCards(project) {
     return (
       <div className="card"> 
         <div className="img-container">
-          <img alt={props.name} src={props.image}/>
+          <img alt={project.name} src={project.image}/>
         </div>
         <div className="content">
-              <p className="props-title" id="card-title">{props.name}</p>
+              <p className="project-title" id="card-title">{project.name}</p>
               
               <p>
-              <a href={props.github}><img src={props.github} alt={props.name}/></a> 
-              <a href={props.deploy}><img src={props.deploy} alt={props.name}></img></a> 
+              <a href={project.github}><img src={project.github} alt={project.name}/></a> 
+              <a href={project.deploy}><img src={project.deploy} alt={project.name}></img></a> 
               </p>
         </div>
       </div>
